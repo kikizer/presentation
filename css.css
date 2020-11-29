@@ -1,0 +1,27 @@
+body{
+    background:beige;
+    background-size: cover;
+    color: black;
+display: grid;
+justify-content: center;
+}
+h1,h3{
+    color: orange;
+}
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+div:hover{
+    transform: scale(1.03);
+}
+
+img{
+    width: 200px;
+    height:250px;
+}
